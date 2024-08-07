@@ -1,0 +1,29 @@
+.wishers {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wishers_content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.wishers_content h1 {
+  font-size: 96px;
+  color: #292830;
+  text-align: center;
+  margin: auto;
+  width: 920px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.wishers_content .slider {
+  width: 92px;
+  height: 12px;
+  margin: auto;
+}

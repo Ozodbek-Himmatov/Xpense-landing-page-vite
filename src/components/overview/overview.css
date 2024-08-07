@@ -1,0 +1,40 @@
+.overview {
+  display: flex;
+  flex-direction: column;
+}
+
+.orange-section {
+  background-color: #ff7235;
+  height: 100vh;
+  z-index: 1;
+}
+
+.overview-image {
+  margin: auto;
+  padding: 117px;
+}
+
+.white-section {
+  width: 1108.2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.vector-left {
+  position: relative;
+  bottom: 542px;
+  z-index: -1;
+}
+
+.vector-right {
+  position: relative;
+  bottom: 1284px;
+  left: 1103px;
+  z-index: -1;
+}
+
+

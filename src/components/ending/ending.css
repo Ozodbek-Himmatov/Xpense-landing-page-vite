@@ -1,0 +1,91 @@
+.ending {
+  width: 1109px;
+  height: 61vh;
+  margin: auto;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.contact img {
+  align-items: start;
+  text-align: center;
+  margin-bottom: auto;
+}
+
+.contact p {
+  font-size: 24px;
+  color: #292830;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.contact ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact li {
+  color: #292830;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.newsletter span,
+.newsletter .span1 {
+  color: #bdbdbd;
+  font-size: 20px;
+}
+
+.newsletter .span2 {
+  font-size: 14px;
+}
+
+.subscription .add-email {
+  padding: 18px 23px;
+  width: 350px;
+  border: 2px solid #292830;
+  border-radius: 8px;
+}
+.subscription .add-email::placeholder {
+  color: #292830;
+  font-size: 18px;
+}
+
+.subscription .submit-email {
+  position: relative;
+  right: 103px;
+  background-color: #ff7235;
+  padding: 12px 15px;
+  border-radius: 8px;
+  margin-top: 18px;
+  margin-bottom: 10px;
+}
+
+.subscription .submit {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: #292830;
+  font-size: 14px;
+}
+
+footer .footer-left span:nth-child(1) {
+  margin-right: 24px;
+}
+
+footer .socials a:nth-child(-n+2) {
+  margin-right: 12px;  
+}

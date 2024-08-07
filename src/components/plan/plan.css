@@ -1,0 +1,98 @@
+.plans {
+  background-color: #fffaf8;
+  height: 130vh;
+  display: flex;
+}
+
+.plans-banner {
+  margin: auto;
+  width: 1108.2px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.plans-banner h1 {
+  font-size: 72px;
+  font-weight: bold;
+  color: #292830;
+  text-align: center;
+}
+
+.plans-section {
+  display: flex;
+  gap: 30px;
+}
+
+.plan {
+  width: 350px;
+  height: 500px;
+  background-color: white;
+  border: 1px solid #f5f5f5;
+  border-radius: 12px;
+}
+.plan:hover {
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.4s;
+}
+
+.plan-content {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.plan-content .icon1 {
+  color: #3ec1f3;
+}
+.plan-content .icon2 {
+  color: #ff7235;
+}
+.plan-content .icon3 {
+  color: #4d12ee;
+}
+
+.plan-content h5 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.plan-content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.plan-content li i,
+.plan-content .costPlan span {
+  color: #bdbdbd;
+}
+.costPlan b {
+  font-size: 24px;
+}
+.costPlan span {
+  font-size: 20px;
+}
+
+.plan-content .comment {
+  font-size: 12px;
+  color: #bdbdbd;
+}
+
+.plan-content button {
+  background-color: white;
+  color: #ff7235;
+  border: 1px solid #ff7235;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 12px 24px;
+  margin-top: 40px;
+}
+.plan-content button:hover {
+  background-color: #ff7235;
+  color: white;
+}

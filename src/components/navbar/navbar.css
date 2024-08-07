@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 160px;
+}
+
+.navbar-links-container a {
+  margin-right: 3rem;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.request {
+  border: 1px solid #ff7235;
+  color: #ff7235;
+  border-radius: 8px;
+  padding: 8px 13px;
+  font-size: 18px;
+}
+.request:hover {
+  background-color: #ff7235;
+  color: white;
+}
