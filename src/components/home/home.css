@@ -39,13 +39,53 @@
   gap: 24px;
 }
 .home-text-section .free-demo button {
-  background-color: #FF7235;
+  background-color: #ff7235;
   color: white;
   border-radius: 8px;
   font-size: 24px;
   padding: 18px 24px;
 }
 .home-text-section .free-demo p {
-  color: #BDBDBD;
+  color: #bdbdbd;
   font-size: 24px;
+}
+
+@media (max-width: 1024px) {
+  .home {
+    width: 800px;
+    height: 115vh;
+  }
+  .home-banner-container {
+    display: block;
+    margin-top: 30px;
+  }
+  .home-banner-container img {
+    position: absolute;
+    right: 0;
+    width: 40px;
+    /* opacity: 70%; */
+    z-index: -1;
+  }
+  .home-text-section {
+    margin-top: 0;
+  }
+  .home-text-section h1 {
+    font-size: 80px;
+    width: 540px;
+  }
+  .home-text-section h6 {
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .home-text-section .free-demo {
+    gap: 18px;
+  }
+  .home-text-section .free-demo button {
+    font-size: 18px;
+    padding: 16px 20px;
+  }
+  .home-text-section .free-demo p {
+    font-size: 18px;
+  }
 }

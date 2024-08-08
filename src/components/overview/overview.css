@@ -25,16 +25,15 @@
 }
 
 .vector-left {
-  position: relative;
-  bottom: 542px;
+  position: absolute;
+  /* bottom: calc(100% + 100% + 130% + 115% + 110% + 100% + 110% + 110%); */
+  top: 157.7%;
   z-index: -1;
 }
 
 .vector-right {
-  position: relative;
-  bottom: 1284px;
-  left: 1103px;
+  position: absolute;
+  top: 115%;
+  right: 0;
   z-index: -1;
 }
-
-
