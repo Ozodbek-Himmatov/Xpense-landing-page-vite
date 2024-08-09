@@ -12,7 +12,7 @@ const home = () => {
           <h1>Track your Expenses & Save Money</h1>
           <h6>Helps you to organize your income and expenses</h6>
           <div className="free-demo">
-            <button>
+            <button className="rounded-lg">
               Try free demo <KeyboardArrowDown fontSize="large" />
             </button>
             <p>— Web, iOS and Android</p>
