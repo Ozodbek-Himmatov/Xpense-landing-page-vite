@@ -1,4 +1,4 @@
-.overview {
+/* .overview {
   display: flex;
   flex-direction: column;
 }
@@ -26,7 +26,7 @@
 
 .vector-left {
   position: absolute;
-  /* bottom: calc(100% + 100% + 130% + 115% + 110% + 100% + 110% + 110%); */
+  // bottom: calc(100% + 100% + 130% + 115% + 110% + 100% + 110% + 110%);
   top: 157.7%;
   z-index: -1;
 }
@@ -36,4 +36,4 @@
   top: 115%;
   right: 0;
   z-index: -1;
-}
+} */

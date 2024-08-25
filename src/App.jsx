@@ -15,14 +15,14 @@ function App() {
     <div className="App">
       <Home />
       <Overview />
-      <Cloud />
+      {/* <Cloud />
       <FreeCost />
       <Anytime />
       <Product />
       <Plan />
       <Wishers />
       <Downloads />
-      <Ending />
+      <Ending /> */}
     </div>
   );
 }

@@ -71,7 +71,7 @@ const navbar = () => {
       <button className="hidden md:flex border border-[#ff7235] text-[#ff7235] rounded-lg lg:text-lg md:text-sm px-3.5 py-2 hover:bg-[#ff7235] hover:text-white">
         Request a demo
       </button>
-      <div className="navbar-menu-container  md:hidden">
+      <div className="md:hidden">
         <HiOutlineBars3
           onClick={() => setOpenMenu(true)}
           className="text-2xl"
