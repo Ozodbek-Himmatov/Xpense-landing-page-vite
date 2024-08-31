@@ -15,8 +15,8 @@ function App() {
     <div className="App">
       <Home />
       <Overview />
-      {/* <Cloud />
-      <FreeCost />
+      <Cloud />
+      {/* <FreeCost />
       <Anytime />
       <Product />
       <Plan />

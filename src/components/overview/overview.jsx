@@ -11,17 +11,45 @@ import VectorRight from "./Vector1.png";
 const overview = () => {
   return (
     <div className="overview flex flex-col w-[100%]">
-      <div className="orange-section flex flex-col justify-end z-10 bg-[#ff7235] xl:h-[2000px] lg:h-[800px] md:h-[700px] h-[500px]">
-        <img src={image} className="overview-image  bg-black m-auto xl:h-auto w-[80%]" alt="" />
-        <img src={Vector} className="vector-left absolute top-full -z-10" alt="" />
-        <img src={VectorRight} className="vector-right absolute top-full xl:top-[115%] right-0 -z-10" alt="" />
+      <div className="orange-section flex justify-center items-end z-10 pt-14 relative bg-[#ff7235] ">
+        <img src={image} className="xl:w-auto sm:w-[80%] w-[90%]" alt="" />
+        <img
+          src={Vector}
+          className="vector-left absolute bottom-0 left-0 -z-10 xl:h-auto h-[70%]"
+          alt=""
+        />
+        <img
+          src={VectorRight}
+          className="vector-right absolute top-0 right-0 -z-10 xl:h-auto h-[70%]"
+          alt=""
+        />
       </div>
-      <div className="white-section flex justify-evenly items-center pt-20 pb-16">
-        <img src={facebook} alt="" />
-        <img src={google} alt="" />
-        <img src={coca_cola} alt="" />
-        <img src={linkedIn} alt="" />
-        <img src={samsung} alt="" />
+      <div className="white-section flex justify-evenly items-center xl:pt-20 xl:pb-16 sm:px-8 px-4 md:pt-16 md:pb-14 sm:pt-12 sm:pb-10 pt-8 pb-6">
+        <img
+          src={facebook}
+          className="xl:w-auto lg:w-28 md:w-24 sm:w-20 w-12"
+          alt=""
+        />
+        <img
+          src={google}
+          className="xl:w-auto lg:w-28 md:w-24 sm:w-20 w-12"
+          alt=""
+        />
+        <img
+          src={coca_cola}
+          className="xl:w-auto lg:w-28 md:w-24 sm:w-20 w-12"
+          alt=""
+        />
+        <img
+          src={linkedIn}
+          className="xl:w-auto lg:w-28 md:w-24 sm:w-20 w-12"
+          alt=""
+        />
+        <img
+          src={samsung}
+          className="xl:w-auto lg:w-28 md:w-24 sm:w-20 w-12"
+          alt=""
+        />
       </div>
     </div>
   );
