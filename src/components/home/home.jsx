@@ -7,7 +7,7 @@ const home = () => {
     <div className="sm:mb-28 w-[93%] sm:w-[80%] lg:w-[85%] xl:w-[1109px] 2xl:w-[90%] m-auto">
       <Navbar />
       <div className="flex flex-col sm:flex-row justify-between xl:mt-12 md:mt-5 sm:mt-8 mt-2 items-center gap-10 m-auto">
-        <div className="lg:mt-2 md:mt-1 lg:w-[384px] md:w-[378px] sm:w-[230px] w-[px] xl:w-auto sm:text-left text-center">
+        <div className="lg:mt-2 md:mt-1 lg:w-[384px] md:w-[378px] sm:w-[230px] xl:w-auto sm:text-left text-center">
           <h1 className="xl:text-8xl lg:text-7xl md:text-6xl sm:text-4xl text-6xl xl:w-auto text-[#292830] font-bold">
             Track your Expenses & Save Money
           </h1>

@@ -16,9 +16,9 @@ function App() {
       <Home />
       <Overview />
       <Cloud />
-      {/* <FreeCost />
+      <FreeCost />
       <Anytime />
-      <Product />
+      {/* <Product />
       <Plan />
       <Wishers />
       <Downloads />
