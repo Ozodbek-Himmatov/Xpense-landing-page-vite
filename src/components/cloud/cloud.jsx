@@ -5,7 +5,7 @@ const cloud = () => {
   return (
     <div
       className="
-      sm:mb-28 mb-16 w-[93%] sm:w-[80%] lg:w-[85%] xl:w-[1109px] 2xl:w-[90%] m-auto 
+      sm:pb-28 pb-16 w-[93%] sm:w-[80%] lg:w-[85%] xl:w-[1109px] m-auto 
       flex flex-col justify-between sm:flex-row xl:mt-12 md:mt-5 sm:mt-8 mt-2 items-center gap-10"
     >
       <div className="lg:mt-2 md:mt-1 lg:w-[355px] md:w-[276px] sm:w-[198px] xl:w-auto sm:text-left text-center">

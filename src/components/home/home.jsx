@@ -4,7 +4,7 @@ import { KeyboardArrowDown } from "@mui/icons-material";
 
 const home = () => {
   return (
-    <div className="sm:mb-28 w-[93%] sm:w-[80%] lg:w-[85%] xl:w-[1109px] 2xl:w-[90%] m-auto">
+    <div className="sm:mb-28 w-[93%] sm:w-[80%] lg:w-[85%] xl:w-[1109px] m-auto">
       <Navbar />
       <div className="flex flex-col sm:flex-row justify-between xl:mt-12 md:mt-5 sm:mt-8 mt-2 items-center gap-10 m-auto">
         <div className="lg:mt-2 md:mt-1 lg:w-[384px] md:w-[378px] sm:w-[230px] xl:w-auto sm:text-left text-center">

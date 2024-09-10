@@ -18,8 +18,8 @@ function App() {
       <Cloud />
       <FreeCost />
       <Anytime />
-      {/* <Product />
-      <Plan />
+      <Product />
+      {/* <Plan />
       <Wishers />
       <Downloads />
       <Ending /> */}

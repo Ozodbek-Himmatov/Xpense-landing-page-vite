@@ -3,12 +3,16 @@ import illustrator from "./Illustrator.png";
 
 const free_cost = () => {
   return (
-    <div className="cost">
+    <div className="cost bg-[#FFFAF8]">
       <div
-        className="cost-banner-section sm:mb-28 mb-16 w-[93%] sm:w-[80%] lg:w-[85%] xl:w-[1109px] 2xl:w-[90%] m-auto 
+        className="cost-banner-section sm:pb-28 pb-16 w-[93%] sm:w-[80%] lg:w-[85%] xl:w-[1109px] m-auto 
       flex flex-col-reverse justify-between sm:flex-row xl:mt-12 md:mt-5 sm:mt-8 mt-2 items-center gap-10"
       >
-        <img src={illustrator} alt="" className="xl:h-auto lg:h-96 md:h-56 sm:h-56 sm:m-0 mb-5" />
+        <img
+          src={illustrator}
+          alt=""
+          className="xl:h-auto lg:h-96 md:h-56 sm:h-56 sm:m-0 mb-5"
+        />
         <div className="cost-text-section cloud-text-section lg:mt-2 md:mt-1 lg:w-[355px] md:w-[276px] sm:w-[198px] xl:w-auto sm:text-left text-center">
           <h3
             className="uppercase text-[#bdbdbd] xl:text-2xl lg:text-lg md:text-sm sm:text-xs text-lg
