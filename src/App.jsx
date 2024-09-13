@@ -19,8 +19,8 @@ function App() {
       <FreeCost />
       <Anytime />
       <Product />
-      {/* <Plan />
-      <Wishers />
+      <Plan />
+      {/* <Wishers />
       <Downloads />
       <Ending /> */}
     </div>

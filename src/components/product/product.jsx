@@ -24,10 +24,10 @@ const product = () => {
   return (
     <div
       className="sm:pb-28 pb-16 w-[93%] sm:w-[80%] lg:w-[85%] xl:w-[1109px] m-auto
-    flex flex-col xl:mt-12 md:mt-5 sm:mt-8 mt-2"
+    flex flex-col xl:pt-12 md:pt-5 sm:pt-8 pt-2"
     >
       <div className="flex flex-col sm:flex-row justify-between sm:mb-20 sm:text-left text-center">
-        <h1 className="xl:text-8xl lg:text-7xl md:text-6xl sm:text-4xl text-6xl xl:w-[643px] lg:w-[482px] md:w-[402px] sm:w-[241px] text-[#292830] font-bold">
+        <h1 className="xl:text-8xl lg:text-7xl md:text-6xl sm:text-4xl text-5xl xl:w-[643px] lg:w-[482px] md:w-[402px] sm:w-[241px] w-[295px] text-[#292830] font-bold">
           The Product we work with.
         </h1>
         <p
@@ -53,7 +53,7 @@ const product = () => {
               >
                 <item.icon />
               </div>
-              <h6 className="lg:text-3xl sm:text-lg text-2xl font-medium md:mt-6 md:mb-3 sm:mt-4 sm:mb-3 m-6">
+              <h6 className="lg:text-3xl   sm:text-lg text-2xl font-medium md:mt-6 md:mb-3 sm:mt-4 sm:mb-3 m-6">
                 {item.title}
               </h6>
               <p className="lg:text-sm md:text-sm sm:text-xs text-base text-[#bdbdbd] lg:w-56 md:w-auto sm:w-32 w-60 text-center">

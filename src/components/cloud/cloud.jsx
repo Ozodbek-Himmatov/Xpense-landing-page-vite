@@ -15,7 +15,7 @@ const cloud = () => {
         >
           Alwalys online
         </h3>
-        <h1 className="xl:text-8xl lg:text-7xl md:text-6xl sm:text-4xl text-6xl xl:w-auto text-[#292830] font-bold">
+        <h1 className="xl:text-8xl lg:text-7xl md:text-6xl sm:text-4xl text-5xl xl:w-auto text-[#292830] font-bold">
           Real-time support with cloud
         </h1>
         <p
