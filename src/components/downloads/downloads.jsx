@@ -1,9 +1,9 @@
 import "./downloads.css";
 import { KeyboardArrowDown } from "@mui/icons-material";
-import Vector from "./Vector.png";
-import VectorRight from "./Vector1.png";
-import Layer10 from "./Layer10.png";
-import Layer4 from "./Layer4.png";
+import Vector from "/src/assets/downloads/Vector.png";
+import VectorRight from "/src/assets/downloads/Vector1.png";
+import Layer10 from "/src/assets/downloads/Layer10.png";
+import Layer4 from "/src/assets/downloads/Layer4.png";
 
 const downloads = () => {
   return (

@@ -1,5 +1,5 @@
 import "./ending.css";
-import Logo from "../navbar/Logo.svg";
+import Logo from "/src/assets/navbar/Logo.svg";
 import { Facebook, LinkedIn, Twitter } from "@mui/icons-material";
 
 const ending = () => {

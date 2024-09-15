@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Logo from "./Logo.svg";
+import Logo from "/src/assets/navbar/Logo.svg";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";

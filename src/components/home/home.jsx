@@ -1,5 +1,5 @@
 import Navbar from "../navbar/navbar";
-import illustration from "./Illustration.png";
+import illustration from "/src/assets/home/Illustration.png";
 import { KeyboardArrowDown } from "@mui/icons-material";
 
 const home = () => {

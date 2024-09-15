@@ -1,5 +1,5 @@
 import { East } from "@mui/icons-material";
-import illustrator from "./Illustrator.png";
+import illustrator from "/src/assets/cost/Illustrator.png";
 
 const free_cost = () => {
   return (

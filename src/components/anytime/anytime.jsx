@@ -1,4 +1,4 @@
-import image from "./Image.png";
+import image from "/src/assets/anytime/Image.png";
 import { East } from "@mui/icons-material";
 
 const anytime = () => {

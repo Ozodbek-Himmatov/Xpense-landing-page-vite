@@ -20,8 +20,8 @@ function App() {
       <Anytime />
       <Product />
       <Plan />
-      {/* <Wishers />
-      <Downloads />
+      <Wishers />
+      {/* <Downloads />
       <Ending /> */}
     </div>
   );

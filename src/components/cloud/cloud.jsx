@@ -1,4 +1,4 @@
-import illustrator from "./Illustrator.png";
+import illustrator from "/src/assets/cloud/Illustrator.png";
 import { East } from "@mui/icons-material";
 
 const cloud = () => {

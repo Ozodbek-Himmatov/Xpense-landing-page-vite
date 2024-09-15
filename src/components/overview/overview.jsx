@@ -1,11 +1,11 @@
-import image from "./Image.png";
-import facebook from "./facebook.png";
-import google from "./google.png";
-import coca_cola from "./coca_cola.png";
-import linkedIn from "./linkedIn.png";
-import samsung from "./samsung.png";
-import Vector from "./Vector.png";
-import VectorRight from "./Vector1.png";
+import image from "/src/assets/overview/Image.png";
+import facebook from "/src/assets/overview/facebook.png";
+import google from "/src/assets/overview/google.png";
+import coca_cola from "/src/assets/overview/coca_cola.png";
+import linkedIn from "/src/assets/overview/linkedIn.png";
+import samsung from "/src/assets/overview/samsung.png";
+import Vector from "/src/assets/overview/Vector.png";
+import VectorRight from "/src/assets/overview/Vector1.png";
 
 const overview = () => {
   return (

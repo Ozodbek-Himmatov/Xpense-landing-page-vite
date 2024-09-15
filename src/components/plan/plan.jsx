@@ -33,11 +33,12 @@ const cardListTexts = [
 
 const plan = () => {
   return (
-    <div
-      className="w-[93%] sm:w-[80%] lg:w-[85%] xl:w-[1109px] bg-[#ffdf8f5] m-auto flex
+    <div className="bg-[#FFFAF8]">
+      <div
+        className="plans-banner m-auto flex flex-col sm:gap-20 gap-10
+      w-[93%] sm:w-[80%] lg:w-[85%] xl:w-[1109px]
       xl:pt-36 md:pt-5 sm:pt-8 pt-2 sm:pb-40 pb-16"
-    >
-      <div className="plans-banner m-auto w-[1109px] flex flex-col sm:gap-20 gap-10">
+      >
         <h1 className="xl:text-7xl lg:text-6xl md:text-5xl sm:text-4xl text-5xl font-bold color-[#292830] text-center">
           Choose your flexible plan.
         </h1>
@@ -61,7 +62,9 @@ const plan = () => {
                       <i className="text-[#bdbdbd]">
                         <Done />
                       </i>
-                      <span className="md:text-sm lg:text-base sm:text-xs">{item}</span>
+                      <span className="md:text-sm lg:text-base sm:text-xs">
+                        {item}
+                      </span>
                     </li>
                   ))}
                 </ul>
