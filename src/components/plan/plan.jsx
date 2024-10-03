@@ -7,18 +7,21 @@ import {
 } from "@mui/icons-material";
 const cardItems = [
   {
+    id: 1,
     icon: CardTravel,
     title: "Starter",
     color: "#3ec1f3",
     cost: "9.99"
   },
   {
+    id: 2,
     icon: Redeem,
     title: "Silver",
     color: "#ff7235",
     cost: "19.99"
   },
   {
+    id: 3,
     icon: CardMembership,
     title: "Diamond",
     color: "#4d12ee",
@@ -26,9 +29,9 @@ const cardItems = [
   }
 ];
 const cardListTexts = [
-  "Store unlimited data",
-  "Export to pdf, xls, csv",
-  "Cloud server support"
+  { id: 1, text: "Store unlimited data" },
+  { id: 2, text: "Export to pdf, xls, csv" },
+  { id: 3, text: "Cloud server support" }
 ];
 
 const plan = () => {
@@ -45,6 +48,7 @@ const plan = () => {
         <div className="plans-section flex flex-col sm:flex-row justify-between max-sm:gap-5 max-sm:m-auto">
           {cardItems.map((item) => (
             <div
+              key={item.id}
               className="plan bg-white border border-solid	border-[#f5f5f5] rounded-xl 
                 xl:h-[500px] xl:w-[350px] lg:h-[400px] lg:w-[280px] md:h-[300px] md:w-[200px] sm:h-[250px] sm:w-[160px] h-[300px] w-[250px]
                 hover:border-none hover:shadow-[0_2px_5px_1px_rgba(50,50,93,0.25),0_1px_3px_-1px_rgba(0,0,0,0.3)] hover:duration-400"
@@ -58,12 +62,12 @@ const plan = () => {
                 </h5>
                 <ul className="flex flex-col lg:gap-2 lg:mb-6 md:mb-3 sm:mb-1">
                   {cardListTexts.map((item) => (
-                    <li>
+                    <li key={item.id}>
                       <i className="text-[#bdbdbd]">
                         <Done />
                       </i>
                       <span className="md:text-sm lg:text-base sm:text-xs">
-                        {item}
+                        {item.text}
                       </span>
                     </li>
                   ))}

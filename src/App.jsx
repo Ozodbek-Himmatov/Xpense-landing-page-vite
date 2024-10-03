@@ -21,8 +21,8 @@ function App() {
       <Product />
       <Plan />
       <Wishers />
-      {/* <Downloads />
-      <Ending /> */}
+      <Downloads />
+      {/* <Ending /> */}
     </div>
   );
 }

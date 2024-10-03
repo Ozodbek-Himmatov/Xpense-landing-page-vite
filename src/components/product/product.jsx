@@ -1,18 +1,21 @@
 import { Devices, CloudQueue, BackpackOutlined } from "@mui/icons-material";
 const cardItems = [
   {
+    id: 1,
     icon: Devices,
     title: "Cross Platform",
     bg_color: "#ffbd740d",
     color: "#ffbd74"
   },
   {
+    id: 2,
     icon: CloudQueue,
     title: "Cloud Server",
     bg_color: "#e2598b0d",
     color: "#e2598b"
   },
   {
+    id: 3,
     icon: BackpackOutlined,
     title: "Pure JavaScript",
     bg_color: "#4d12ee0d",
@@ -42,6 +45,7 @@ const product = () => {
       <div className="flex flex-col sm:flex-row justify-between max-sm:gap-5 max-sm:m-auto">
         {cardItems.map((item) => (
           <div
+            key={item.id}
             className="card hover:bg-slate-100 hover:shadow-[0_-2px_5px_-1px_rgba(50,50,93,0.25),0_1px_1px_3px_rgba(0,0,0,0.3)] 
           flex rounded-xl 
           xl:w-[350px] xl:h-[350px] lg:w-[280px] lg:h-[280px] md:w-[200px] md:h-[200px] sm:w-[165px] sm:h-[165px] w-[250px] h-[260px]"

@@ -14,7 +14,7 @@ const overview = () => {
         <img src={image} className="xl:w-auto sm:w-[85%] w-[90%]" alt="" />
         <img
           src={Vector}
-          className="vector-left absolute bottom-0 left-0 -z-10 xl:h-auto sm:h-[70%] h-[0%]"
+          className="vector-left absolute bottom-0 left-0 -z-10 xl:h-auto sm:h-[70%] h-[50%]"
           alt=""
         />
         <img
