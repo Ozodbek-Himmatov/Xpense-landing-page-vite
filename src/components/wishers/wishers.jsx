@@ -1,10 +1,12 @@
+import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "./wishers.css";
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
 
-import { FreeMode, Pagination } from "swiper/modules";
+import { Pagination, FreeMode } from "swiper/modules";
 
 import profile from "/src/assets/wishers/profile.png";
 import profile2 from "/src/assets/wishers/profile2.png";
@@ -56,11 +58,11 @@ const ServiceData = [
   }
 ];
 
-const Wishers = () => {
+export default function Wishers() {
   const pagination = {
     clickable: true,
     renderBullet: function (index, className) {
-      return '<span className="' + className + '">' + (index + 1) + "</span>";
+      return '<span class="' + className + '"></span>';
     }
   };
 
@@ -103,13 +105,9 @@ const Wishers = () => {
           loop={true}
           centeredSlides={true}
           freeMode={true}
-          pagination={{
-            pagination,
-            clickable: true,
-            dynamicBullets: true
-          }}
-          modules={[FreeMode, Pagination]}
-          className="max-w-full"
+          pagination={pagination}
+          modules={[Pagination, FreeMode]}
+          className="mySwiper max-w-full"
         >
           {ServiceData.map((item) => (
             <SwiperSlide
@@ -136,11 +134,8 @@ const Wishers = () => {
               </div>
             </SwiperSlide>
           ))}
-          <div className="swiper-pagination"></div>
         </Swiper>
       </div>
     </div>
   );
-};
-
-export default Wishers;
+}
