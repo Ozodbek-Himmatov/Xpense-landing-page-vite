@@ -16,7 +16,7 @@ const downloads = () => {
         />
         <img
           src={Layer4}
-          className="absolute xl:top-[350px] lg:top-[320px] md:top-[270px] sm:top-[200px] top-[500px] xl:right-[110px] right-0 lg:right-[80px] md:right-[70px] sm:right-[25px] 
+          className="absolute xl:top-[350px] lg:top-[320px] md:top-[270px] sm:top-[200px] top-[450px] xl:right-[110px] right-0 lg:right-[80px] md:right-[70px] sm:right-[25px] 
           z-10 xl:w-auto lg:w-2/6 md:w-72 sm:w-64 w-60"
           alt=""
         />
