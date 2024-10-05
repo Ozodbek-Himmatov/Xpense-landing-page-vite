@@ -22,7 +22,7 @@ function App() {
       <Plan />
       <Wishers />
       <Downloads />
-      {/* <Ending /> */}
+      <Ending />
     </div>
   );
 }
