@@ -1,13 +1,11 @@
 .swiper-pagination-bullet {
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  color: #000;
+  width: 12px;
+  height: 12px;
+  border: 1px solid black;
   opacity: 1;
-  background: rgba(0, 0, 0, 0.2);
+  background: white;
 }
 
 .swiper-pagination-bullet-active {
-  color: white;
-  background: #7700ff;
+  background-color: black;
 }

@@ -7,16 +7,24 @@ import Layer4 from "/src/assets/downloads/Layer4.png";
 const downloads = () => {
   return (
     <div className="flex flex-col">
-      <div className="relative bg-[#ff7235] xl:pt-28 lg:pt-24 md:pt-20 sm:pt-16 pt-5 xl:pb-80 lg:pb-72 md:pb-60 sm:pb-52 pb-96">
+      <div
+        className="relative bg-[#ff7235] xl:pt-28 lg:pt-24 md:pt-20 sm:pt-16 pt-5 
+      xl:pb-80 lg:pb-72 md:pb-60 sm:pb-52 min-[388px]:pb-80 min-[485px]:pb-52 pb-96"
+      >
         <img
           src={Layer10}
-          className="absolute xl:top-[350px] lg:top-[320px] md:top-[270px] sm:top-[200px] top-[340px] xl:left-[110px] left-0 lg:left-[80px] md:left-[70px] sm:left-[25px]
+          className="absolute xl:top-[350px] lg:top-[320px] md:top-[270px] sm:top-[200px] 
+          min-[388px]:top-[280px] min-[497px]:top-[220px] top-[340px] 
+          xl:left-[110px] left-0 lg:left-[80px] md:left-[70px] sm:left-[25px]
           z-10 xl:w-auto lg:w-2/6 md:w-72 sm:w-64 w-60"
           alt=""
         />
         <img
           src={Layer4}
-          className="absolute xl:top-[350px] lg:top-[320px] md:top-[270px] sm:top-[200px] top-[450px] xl:right-[110px] right-0 lg:right-[80px] md:right-[70px] sm:right-[25px] 
+          className="absolute 
+          xl:top-[350px] lg:top-[320px] md:top-[270px] sm:top-[200px] 
+          top-[500px] min-[375px]:top-[500px] min-[388px]:top-[400px] min-[485px]:top-[280px] min-[497px]:top-[220px]  
+          xl:right-[110px] right-2 lg:right-[80px] md:right-[70px] sm:right-[25px] 
           z-10 xl:w-auto lg:w-2/6 md:w-72 sm:w-64 w-60"
           alt=""
         />

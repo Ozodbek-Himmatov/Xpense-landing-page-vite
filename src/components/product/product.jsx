@@ -30,7 +30,7 @@ const product = () => {
     flex flex-col xl:pt-12 md:pt-5 sm:pt-8 pt-2"
     >
       <div className="flex flex-col sm:flex-row justify-between sm:mb-20 sm:text-left text-center">
-        <h1 className="xl:text-8xl lg:text-7xl md:text-6xl sm:text-4xl text-5xl xl:w-[643px] lg:w-[482px] md:w-[402px] sm:w-[241px] w-[295px] text-[#292830] font-bold">
+        <h1 className="xl:text-8xl lg:text-7xl md:text-6xl sm:text-4xl text-5xl xl:w-[643px] lg:w-[482px] md:w-[402px] sm:w-[241px] w-[295px] text-[#292830] font-bold m-auto">
           The Product we work with.
         </h1>
         <p

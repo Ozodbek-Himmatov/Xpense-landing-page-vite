@@ -1,10 +1,10 @@
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "./wishers.css";
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
+import "./wishers.css";
 
 import { Pagination, FreeMode } from "swiper/modules";
 
