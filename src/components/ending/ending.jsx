@@ -101,9 +101,7 @@ const ending = () => {
           </span>
           <form className="subscription">
             <input
-              className="add-email lg:px-6 lg:py-5 md:px-5 md:py-4 sm:px-3 sm:py-2 px-2 py-1.5 lg:w-[350px] md:w-[250px] w-full
-              border-2 border-solid border-[#292830] focus:border-[#ff7235]
-              rounded-lg placeholder:text-[#292830] lg:placeholder:text-lg placeholder:text-sm"
+              className="lg:px-6 lg:py-5 md:px-5 md:py-4 sm:px-3 sm:py-2 px-2 py-1.5 lg:w-[350px] md:w-[250px] w-full border-2 border-solid border-[#292830] focus:border-[#ff7235] rounded-lg placeholder:text-[#292830] lg:placeholder:text-lg placeholder:text-sm"
               type="email"
               placeholder="Enter your email"
             />
