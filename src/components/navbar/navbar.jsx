@@ -13,60 +13,53 @@ import ListItemText from "@mui/material/ListItemText";
 import { Category, Info, Phone, Sell, Feedback } from "@mui/icons-material";
 
 const navbar = () => {
+  console.log(window.location);
   const [openMenu, setOpenMenu] = useState(false);
   const menuOptions = [
     {
       text: "Features",
-      icon: <Category />
+      icon: <Category />,
+      path: "features"
     },
     {
       text: "About us",
-      icon: <Info />
+      icon: <Info />,
+      path: "about-us"
     },
     {
       text: "Pricing",
-      icon: <Sell />
+      icon: <Sell />,
+      path: "pricing"
     },
     {
       text: "Feedback",
-      icon: <Feedback />
+      icon: <Feedback />,
+      path: "feedback"
     },
     {
       text: "Request a demo",
-      icon: <Phone />
+      icon: <Phone />,
+      path: "demo-request"
     }
   ];
 
   return (
     <nav className="flex items-center	justify-between lg:min-h-40 sm:min-h-24 min-h-20">
-      <a href="#">
+      <a href="/">
         <img src={Logo} alt="Xpense" />
       </a>
       <div className="hidden md:flex">
-        <a
-          href=""
-          className="xl:mr-12 lg:mr-8 md:mr-4 text-[#292830] lg:text-lg md:text-sm"
-        >
-          Features
-        </a>
-        <a
-          href=""
-          className="xl:mr-12 lg:mr-8 md:mr-4 text-[#292830] lg:text-lg md:text-sm"
-        >
-          About us
-        </a>
-        <a
-          href=""
-          className="xl:mr-12 lg:mr-8 md:mr-4 text-[#292830] lg:text-lg md:text-sm"
-        >
-          Pricing
-        </a>
-        <a
-          href=""
-          className="xl:mr-12 lg:mr-8 md:mr-4 text-[#292830] lg:text-lg md:text-sm"
-        >
-          Feedback
-        </a>
+        {menuOptions.map((item) => (
+          <a
+            key={item.text}
+            href={`/` + item.path}
+            className={`xl:mr-12 lg:mr-8 md:mr-4 text-[#292830] lg:text-lg md:text-sm ${
+              item.path.startsWith("demo") ? "hidden" : ""
+            }`}
+          >
+            {item.text}
+          </a>
+        ))}
       </div>
       <button className="hidden md:flex border border-[#ff7235] text-[#ff7235] rounded-lg lg:text-lg md:text-sm px-3.5 py-2 hover:bg-[#ff7235] hover:text-white">
         Request a demo
@@ -96,13 +89,15 @@ const navbar = () => {
                 disablePadding
                 className="hover:bg-slate-500"
               >
-                <ListItemButton>
-                  <ListItemIcon>{item.icon}</ListItemIcon>
-                  <ListItemText
-                    primary={item.text}
-                    className="text-[#292830]"
-                  />
-                </ListItemButton>
+                <a href={`/` + item.path}>
+                  <ListItemButton>
+                    <ListItemIcon>{item.icon}</ListItemIcon>
+                    <ListItemText
+                      primary={item.text}
+                      className="text-[#292830]"
+                    />
+                  </ListItemButton>
+                </a>
               </ListItem>
             ))}
           </List>

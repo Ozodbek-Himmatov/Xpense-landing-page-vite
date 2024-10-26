@@ -1,50 +1,13 @@
 import Logo from "/src/assets/navbar/Logo.svg";
 import { Facebook, LinkedIn, Twitter } from "@mui/icons-material";
 
-const links = [
-  {
-    id: 1,
-    text: "Home"
-  },
-  {
-    id: 2,
-    text: "About us"
-  },
-  {
-    id: 3,
-    text: "Careers"
-  },
-  {
-    id: 4,
-    text: "Pricing"
-  },
-  {
-    id: 5,
-    text: "Features"
-  },
-  {
-    id: 6,
-    text: "Blog"
-  }
-];
+const links = ["Home", "About us", "Careers", "Pricing", "Features", "Blog"];
 
 const legal = [
-  {
-    id: 7,
-    text: "Terms of use"
-  },
-  {
-    id: 8,
-    text: "Terms of conditions"
-  },
-  {
-    id: 9,
-    text: "Privacy policy"
-  },
-  {
-    id: 0,
-    text: "Cookie policy"
-  }
+  "Terms of use",
+  "Terms of conditions",
+  "Privacy policy",
+  "Cookie policy"
 ];
 
 const ending = () => {
@@ -56,19 +19,19 @@ const ending = () => {
           className="items-center text-center sm:mb-auto max-sm:ms-5 sm:w-auto w-32"
           alt=""
         />
-        <div className="flex justify-around max-sm:mt-3">
+        <div className="flex justify-evenly md:w-full max-sm:mt-3">
           <div className="links">
             <p className="lg:text-2xl md:text-xl text-[#292830] sm:font-medium font-semibold uppercase lg:mb-6 md:mb-2">
               links
             </p>
             <ul className="flex flex-col sm:gap-2">
               {links.map((item) => (
-                <li key={item.id} className="text-[#292830]">
+                <li key={item} className="text-[#292830]">
                   <a
                     href=""
                     className="lg:text-lg md:text-base sm:text-xs font-medium"
                   >
-                    {item.text}
+                    {item}
                   </a>
                 </li>
               ))}
@@ -80,12 +43,12 @@ const ending = () => {
             </p>
             <ul className="flex flex-col sm:gap-2">
               {legal.map((item) => (
-                <li key={item.id} className="text-[#292830]">
+                <li key={item} className="text-[#292830]">
                   <a
                     href=""
                     className="lg:text-lg md:text-base sm:text-xs font-medium"
                   >
-                    {item.text}
+                    {item}
                   </a>
                 </li>
               ))}
@@ -101,7 +64,9 @@ const ending = () => {
           </span>
           <form className="subscription">
             <input
-              className="lg:px-6 lg:py-5 md:px-5 md:py-4 sm:px-3 sm:py-2 px-2 py-1.5 lg:w-[350px] md:w-[250px] w-full border-2 border-solid border-[#292830] focus:border-[#ff7235] rounded-lg placeholder:text-[#292830] lg:placeholder:text-lg placeholder:text-sm"
+              className="lg:ps-4 lg:pe-28 md:pe-20 lg:py-5 md:ps-3 md:py-4 sm:ps-2 sm:pe-20 sm:py-2 ps-1.5 pe-16 py-1.5 
+              lg:w-[350px] md:w-[240px] sm:w-[215px] w-full border-2 border-solid border-[#292830] focus:border-[#ff7235] outline-none rounded-lg 
+              placeholder:text-[#292830] lg:placeholder:text-lg placeholder:text-sm"
               type="email"
               placeholder="Enter your email"
             />
@@ -122,10 +87,10 @@ const ending = () => {
         </div>
       </div>
       <hr />
-      <footer className="flex sm:flex-row flex-col justify-between mt-5 text-[#292830] text-sm">
-        <div className="footer-left flex justify-between">
+      <footer className="flex flew-col sm:flex-row max-sm:flex-wrap justify-between mt-5 text-[#292830] text-sm">
+        <div className="flex max-sm:w-full justify-between sm:gap-3">
           <span>
-            <a href="" className="me-6">
+            <a href="" className="">
               Privacy & Terms
             </a>
           </span>
@@ -133,23 +98,21 @@ const ending = () => {
             <a href="">Contact Us</a>
           </span>
         </div>
-        <div className="flex justify-between">
-          <div className="copyright">Copyright @ 2022 xpence</div>
-          <div className="socials">
-            <a
-              className="sm:me-3"
-              target="_blank"
-              href="https://www.facebook.com/"
-            >
-              <Facebook />
-            </a>
-            <a className="sm:me-3" target="_blank" href="https://x.com/">
-              <Twitter />
-            </a>
-            <a target="_blank" href="https://uz.linkedin.com/">
-              <LinkedIn />
-            </a>
-          </div>
+        <span className="copyright">Copyright @ 2022 xpence</span>
+        <div className="socials">
+          <a
+            className="sm:me-2"
+            target="_blank"
+            href="https://www.facebook.com/"
+          >
+            <Facebook />
+          </a>
+          <a className="sm:me-2" target="_blank" href="https://x.com/">
+            <Twitter />
+          </a>
+          <a target="_blank" href="https://uz.linkedin.com/">
+            <LinkedIn />
+          </a>
         </div>
       </footer>
     </div>
